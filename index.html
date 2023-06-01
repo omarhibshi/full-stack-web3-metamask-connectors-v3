@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Blocchain Web3 Training</title>
+    </head>
+
+    <body style="background-color: #150458">
+        <style>
+            h1 {
+                text-align: center;
+                color: rgb(162, 255, 0);
+                font-weight: 200;
+                font-size: xx-large;
+            }
+            h2 {
+                text-align: center;
+                color: rgb(255, 189, 47);
+                font-weight: 100;
+                font-size: xx-large;
+            }
+        </style>
+        <h1>Welcome to the of world of Blockhain & Web3</h1>
+        <h2>{ Full Stack Web Metamask Connectors- Version 2 }</h2>
+        <center>
+            <img
+                style="width: 13cm; height: 9cm; text-align: center"
+                ,
+                src="images/20230226_154901.jpg"
+                ,
+                class="center"
+            />
+
+            ><br /><br />
+            <script src="./dist/bundle.js" type="text/javascript"></script>
+            <button
+                id="connectButton"
+                style="background-color: #3630a3"
+                onclick="bundle.connect()"
+            >
+                <img
+                    style="
+                        width: 2.5cm;
+                        height: 1.5cm;
+                        text-align: center;
+                        background-color: #3630a3;
+                    "
+                    src="images/Metamask-Emblem-stright.png"
+                    alt="buttonpng"
+                    border="1"
+                />
+            </button>
+            <br /><br />
+            <button
+                id="fundButton"
+                style="
+                    background: #30a36b;
+                    color: white;
+                    height: 45px;
+                    width: 245px;
+                    font-size: large;
+                "
+                onclick="bundle.execute()"
+            >
+                Execute
+            </button>
+            <br /><br />
+            <label
+                id="statusLabel"
+                style="
+                    color: rgb(245, 143, 143);
+                    font-weight: 1000;
+                    font-size: x-large;
+                "
+                >Metamask not connected</label
+            ><br /><br />
+            <label
+                id="walletAddressLabel"
+                style="
+                    color: rgb(85, 250, 40);
+                    font-weight: 1000;
+                    font-size: medium;
+                "
+                >Metamask not connected</label
+            ><br />
+        </center>
+    </body>
+</html>
